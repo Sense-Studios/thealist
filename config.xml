@@ -1,13 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<<<<<<< HEAD
-<widget
-  id="com.sensestudios.zoomintv.thealist"
-  version="1.0.0"
-=======
 <widget
   id="com.sensestudios.zoomintv.thealist"
   version="1.0.1"
->>>>>>> c27c6bfeedb5d51fa042a8ccd07675f20eac2c14
   versioncode="1"
   xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
@@ -37,6 +31,7 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="StatusBarOverlaysWebview" value="false" />
+    <preference name="exit-on-suspend" value="true" />
     <preference name="target-device" value="universal" /> <!-- ios phone and tablet only -->
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
       <true/>
